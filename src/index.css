@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/src/fonts/Satoshi-Regular.otf') format('opentype');
+  }
+
+  h1 {
+    font-family: 'Satoshi';
+  }
+}
